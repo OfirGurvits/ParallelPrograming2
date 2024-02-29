@@ -1,3 +1,5 @@
+// 325655058 ofir gurvits
+// 323082867 Shaked Solomon
 #include "graph.h"
 
 node * createNode(vertex v) {
