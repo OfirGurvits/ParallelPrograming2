@@ -1,3 +1,6 @@
+// 325655058 ofir gurvits
+// 323082867 Shaked Solomon
+
 #ifndef TASK_2_QUEUE_H
 #define TASK_2_QUEUE_H
 #include <stdio.h>
