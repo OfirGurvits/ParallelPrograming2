@@ -1,3 +1,6 @@
+// 325655058 ofir gurvits
+// 323082867 Shaked Solomon
+
 #ifndef THREAD_POOL_H
 #define THREAD_POOL_H
 
