@@ -1,3 +1,6 @@
+# 325655058 ofir gurvits
+# 323082867 Shaked Solomon
+
 CC = gcc
 CFLAGS = -pthread
 
