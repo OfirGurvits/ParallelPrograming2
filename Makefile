@@ -1,18 +1,11 @@
-# Target executable name
-TARGET = part_III.out
-
-# Source files
-SRCS = main.c code.c
-
-# Compiler and flags
 CC = gcc
-# CFLAGS = place flags if needed
+CFLAGS = -pthread
 
-# Default target builds the executable
-$(TARGET): $(SRCS)
-	$(CC) $(SRCS) $(CFLAGS) -o $@
+SRCS = main.c code.c SyncGraph/graph.c ThreadPool/ThreadPool.c ThreadPool/TaskQueue.c Queue/Queue.c
+OBJS = $(SRCS:.c=.o)
 
-# Clean target removes the executable
-clean:
-	rm -f $(TARGET)
+part_III.out: $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o part_III.out
 
+%.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@
