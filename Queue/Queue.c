@@ -1,6 +1,5 @@
-//
-// Created by ofir on 2/21/24.
-//
+// 325655058 ofir gurvits
+// 323082867 Shaked Solomon
 
 #include "Queue.h"
 void init_Queue(Queue* q) {
